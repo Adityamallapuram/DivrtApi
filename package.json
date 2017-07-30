@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "test.js",
-  "scripts": {
-    "test": "mocha --reporter mochawesome"
-  },
+  //"scripts": {
+   // "test": "mocha --reporter mochawesome"
+  //},
 
   "repository": {
     "type": "git",
