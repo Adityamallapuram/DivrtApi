@@ -1,8 +1,8 @@
 {
-  "name": "test",
+  "name": "consumer_apis",
   "version": "1.0.0",
   "description": "",
-  "main": "consumer_apitests.js",
+  "main": "test.js",
   "scripts": {
     "test": "mocha --reporter mochawesome"
   },
