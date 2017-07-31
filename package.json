@@ -1,29 +1,23 @@
 {
-  "name": "consumer_apis",
-  "version": "1.0.0",
-  "description": "",
-  "main": "test.js",
- 
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Adityamallapuram/DivrtApi.git"
-},
+    "name": "api-testing",
+    "version": "1.0.0",
+    "description": "API Testing",
+    "author": "Aditya",
+    "dependencies": {
+        "body-parser": "^1.17.1",
+        "chai": "^3.5.0",
+        "mocha": "^3.4.0",
+        "mochawesome": "^2.3.0",
+        "supertest": "^3.0.0"
+    },
 
-  "author": "Aditya",
-  "license": "ISC",
-  "dependencies": {
-    "chai": "*",
-    "mochawesome":"*",
-    "mocha": "*",
-    "request": "*",
-    "should": "*",
-    "supertest": "*"
-  },
-
-  "engines": {
-    "node": "*",
-    "npm": "*"
-}
-
+    "scripts": {
+        "prestart": "npm install;",
+        "start": "mocha --timeout 25000 --colors --reporter mochawesome || true"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Adityamallapuram/DivrtApi.git"
+    }
 }
 
